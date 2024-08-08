@@ -1,0 +1,18 @@
+.flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Myimage {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 200px; /* Set your desired width */
+    height: 200px; /* Set your desired height */
+    object-fit: cover;
+}
+.Myimage2 {
+    width: 50%;              /* Adjust to your needs */
+    height: 100px;         /* Adjust to your needs */
+    object-fit: cover;    
+}
