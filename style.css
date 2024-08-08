@@ -16,35 +16,4 @@
     height: 100px;         /* Adjust to your needs */
     object-fit: cover;    
 }
-.container-fluid {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 15px;
-        }
-.card {
-            background-color: black;
-            color: white;
-        }
-.table-container {
-            overflow-x: auto;
-        }
-table {
-            width: 100%;
-            color: white;
-            border-collapse: collapse;
-            border: 1px solid white;
-        }
-th, td {
-            padding: 8px;
-            border: 1px solid white;
-            text-align: left;
-        }
-        /* Responsive styling */
-@media (max-width: 768px) {
-            table {
-                font-size: 14px;
-            }
-            th, td {
-                padding: 6px;
-            }
-        }
+
