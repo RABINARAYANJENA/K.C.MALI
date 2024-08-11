@@ -1,4 +1,4 @@
-.flex
+.flex_box
 {
     display: flex;
     justify-content: center;
@@ -17,3 +17,50 @@
     object-fit: cover;    
 }
 
+
+/* ==============home============== */
+#Home a{
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+#Home h1{
+    margin: 0;
+}
+#Home h4{
+    margin: 0;
+    color: rgb(168, 168, 168);
+    padding: 3px 0 10px;
+}
+#Home h5{
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* ==============about============== */
+#About p{
+    text-align: justify;
+}
+#About img{
+    max-height: 440px;
+    border-radius: 10px;
+}
+@media (max-width:600px) {
+    #About p{
+        font-size: 15px !important;
+    }
+}
+
+
+
+/* ============Academic============ */
+#Academic .card{
+    /* background: linear-gradient(145deg,#dc3545,white); */
+    border: 0.5px solid #dc3545;
+}
+
+
+/* =============KeySkill================ */
+#KeySkill .progress{
+    margin: 5px 0 10px;
+}
